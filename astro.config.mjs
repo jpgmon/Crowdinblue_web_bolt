@@ -10,6 +10,12 @@ export default defineConfig({
     assets: 'assets',
   },
   server: {
-    host: true
+    host: true,
+    port: 4321
+  },
+  vite: {
+    ssr: {
+      noExternal: ['@astrojs/*']
+    }
   }
 });
