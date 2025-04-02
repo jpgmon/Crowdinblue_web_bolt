@@ -1,0 +1,93 @@
+---
+---
+
+<section id="why" class="section why-section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Why CrowdInBlue</h2>
+      <p>We're addressing critical challenges in water project funding</p>
+    </div>
+    
+    <div class="why-cards">
+      <div class="why-card">
+        <div class="why-icon">💧</div>
+        <h3>Fragmented Funding</h3>
+        <p>Water projects struggle to navigate the complex landscape of grants, loans, and private investments.</p>
+      </div>
+      
+      <div class="why-card">
+        <div class="why-icon">🔍</div>
+        <h3>Visibility Gap</h3>
+        <p>Innovative solutions often lack exposure to the right funders who share their vision and goals.</p>
+      </div>
+      
+      <div class="why-card">
+        <div class="why-icon">📊</div>
+        <h3>Resource Constraints</h3>
+        <p>Small and medium projects lack the resources to identify and pursue appropriate funding opportunities.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .why-section {
+    background-color: var(--bg);
+    padding: 6rem 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .why-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .why-card {
+    background-color: var(--card-bg);
+    padding: 2.5rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .why-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .why-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .why-card h3 {
+    margin-bottom: 1rem;
+    color: var(--primary-dark);
+    font-size: 1.5rem;
+  }
+  
+  .why-card p {
+    color: var(--gray);
+    line-height: 1.7;
+  }
+  
+  @media (max-width: 768px) {
+    .why-section {
+      padding: 4rem 0;
+    }
+    
+    .why-card {
+      padding: 2rem;
+    }
+    
+    .why-icon {
+      font-size: 2.5rem;
+    }
+    
+    .why-card h3 {
+      font-size: 1.3rem;
+    }
+  }
+</style>

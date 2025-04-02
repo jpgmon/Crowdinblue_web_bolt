@@ -1,0 +1,104 @@
+---
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1>Financing Water. Together.</h1>
+      <p>CrowdInBlue connects water-related projects with the right funding sources, helping innovative solutions access grants, donors, impact investors, and crowdfunding opportunities.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Get Involved</a>
+        <a href="#services" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    height: 100vh;
+    min-height: 600px;
+    background: linear-gradient(135deg, rgba(30, 136, 229, 0.9), rgba(21, 101, 192, 0.9)), url('/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .dark-mode .hero {
+    background: linear-gradient(135deg, rgba(30, 136, 229, 0.8), rgba(21, 101, 192, 0.8)), url('/images/hero-bg.jpg');
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 80px;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .hero .btn {
+    padding: 0.9rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 6px;
+  }
+  
+  .hero .btn-outline {
+    border-color: white;
+    color: white;
+  }
+  
+  .hero .btn-outline:hover {
+    background-color: white;
+    color: var(--primary);
+  }
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    
+    .hero p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+    
+    .hero-buttons {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    
+    .hero-buttons .btn {
+      width: 100%;
+    }
+  }
+</style>

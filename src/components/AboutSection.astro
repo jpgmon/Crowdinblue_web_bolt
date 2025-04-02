@@ -1,0 +1,87 @@
+---
+---
+
+<section id="about" class="section about-section">
+  <div class="container">
+    <div class="section-title">
+      <h2>About the Founder</h2>
+    </div>
+    
+    <div class="founder-profile">
+      <div class="founder-image">
+        <img src="/images/founder.jpg" alt="Juan Pablo García" width="200" height="200">
+      </div>
+      <div class="founder-bio">
+        <h3>Juan Pablo García</h3>
+        <p class="founder-title">Civil Engineer & PhD Researcher</p>
+        <p>Juan Pablo is a civil engineer and PhD researcher based in Spain, specializing in water management and sustainable infrastructure. Through his work across Europe, he identified a critical gap between innovative water projects and appropriate funding sources.</p>
+        <p>CrowdInBlue emerged from his vision to create a more efficient ecosystem where water initiatives can thrive through better access to diverse funding opportunities. The platform is currently in its early development phase, with Juan Pablo leading stakeholder engagement and platform design.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .about-section {
+    background-color: var(--light);
+    padding: 6rem 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .founder-profile {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 3rem;
+    box-shadow: var(--card-shadow);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .founder-image img {
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .founder-bio h3 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-dark);
+  }
+  
+  .founder-title {
+    font-style: italic;
+    color: var(--gray);
+    margin-bottom: 1.5rem;
+  }
+  
+  .founder-bio p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: var(--gray);
+  }
+  
+  @media (max-width: 768px) {
+    .about-section {
+      padding: 4rem 0;
+    }
+    
+    .founder-profile {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem;
+    }
+    
+    .founder-image {
+      margin-bottom: 1.5rem;
+    }
+    
+    .founder-bio h3 {
+      font-size: 1.5rem;
+    }
+  }
+</style>

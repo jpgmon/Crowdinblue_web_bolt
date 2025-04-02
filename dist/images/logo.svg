@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <g transform="translate(100, 100)">
+    <!-- Left curved line (medium blue) -->
+    <path d="M 0,0 C 20,80 20,220 0,300" stroke="#5B8DC0" stroke-width="60" fill="none" stroke-linecap="round"/>
+    
+    <!-- Middle straight line (light blue) -->
+    <path d="M 150,0 L 150,300" stroke="#A7CCED" stroke-width="60" stroke-linecap="round"/>
+    
+    <!-- Right straight line (dark blue) -->
+    <path d="M 300,0 L 300,300" stroke="#1E4B7E" stroke-width="60" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,97 @@
+---
+---
+
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Get Involved</h2>
+    </div>
+    
+    <div class="contact-options">
+      <div class="contact-card">
+        <h3>Are you a project promoter?</h3>
+        <p>If you're working on a water-related initiative and looking for funding or visibility, we'd love to hear about your project and challenges.</p>
+        <a href="https://calendly.com/crowdinblue/intro" target="_blank" class="btn btn-primary">Schedule a Call</a>
+      </div>
+      
+      <div class="contact-card">
+        <h3>Are you a donor or funder?</h3>
+        <p>If you represent a foundation, grant program, or investment fund interested in supporting water projects, join our network.</p>
+        <a href="https://forms.gle/YourFormLink" target="_blank" class="btn btn-outline">Submit Information</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .contact-section {
+    background-color: var(--bg);
+    padding: 6rem 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  
+  .contact-card {
+    background-color: var(--light);
+    padding: 3rem;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .contact-card h3 {
+    margin-bottom: 1.5rem;
+    color: var(--primary-dark);
+    font-size: 1.5rem;
+  }
+  
+  .contact-card p {
+    color: var(--gray);
+    margin-bottom: 2rem;
+    flex-grow: 1;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .contact-card .btn {
+    align-self: center;
+    padding: 0.9rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    width: 80%;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-section {
+      padding: 4rem 0;
+    }
+    
+    .contact-options {
+      gap: 2rem;
+    }
+    
+    .contact-card {
+      padding: 2rem;
+    }
+    
+    .contact-card h3 {
+      font-size: 1.3rem;
+    }
+    
+    .contact-card p {
+      font-size: 1rem;
+    }
+  }
+</style>

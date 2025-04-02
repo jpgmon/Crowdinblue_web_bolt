@@ -1,0 +1,217 @@
+---
+---
+
+<section id="services" class="section services-section">
+  <div class="container">
+    <div class="section-title">
+      <h2>What We're Building</h2>
+      <p>CrowdInBlue is developing a comprehensive platform to connect water projects with funding sources</p>
+    </div>
+    
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Funding Database</h3>
+        <p>A searchable database of grants, impact investors, and crowdfunding opportunities specifically for water projects.</p>
+      </div>
+      
+      <div class="service-card">
+        <h3>Project Showcase</h3>
+        <p>A platform for water initiatives to showcase their work and connect with potential funders and supporters.</p>
+      </div>
+      
+      <div class="service-card">
+        <h3>Funding Matchmaking</h3>
+        <p>AI-powered matching to connect projects with the most suitable funding sources based on multiple criteria.</p>
+      </div>
+      
+      <div class="service-card">
+        <h3>Application Support</h3>
+        <p>Resources and guidance to help projects prepare compelling funding applications and pitches.</p>
+      </div>
+    </div>
+    
+    <div class="development-status">
+      <h3>Development Status</h3>
+      <p>CrowdInBlue is currently in the research and development phase. We're engaging with stakeholders to refine our platform concept and build partnerships.</p>
+      <div class="timeline">
+        <div class="timeline-item active">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>Research</h4>
+            <p>Stakeholder interviews and market analysis</p>
+          </div>
+        </div>
+        <div class="timeline-item active">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>Concept</h4>
+            <p>Platform design and feature planning</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>Development</h4>
+            <p>Building the initial platform version</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>Launch</h4>
+            <p>Public release and ongoing improvements</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .services-section {
+    background-color: var(--light);
+    padding: 6rem 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .service-card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-card h3 {
+    margin-bottom: 1rem;
+    color: var(--primary-dark);
+    font-size: 1.3rem;
+  }
+  
+  .service-card p {
+    color: var(--gray);
+    line-height: 1.6;
+  }
+  
+  .development-status {
+    background-color: var(--card-bg);
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .development-status h3 {
+    margin-bottom: 1rem;
+    color: var(--primary-dark);
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .development-status > p {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: var(--gray);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .timeline {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    position: relative;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--light-gray);
+    z-index: 1;
+  }
+  
+  .timeline-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    width: 25%;
+  }
+  
+  .timeline-marker {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--light-gray);
+    border: 3px solid var(--card-bg);
+    margin-bottom: 1rem;
+  }
+  
+  .timeline-item.active .timeline-marker {
+    background-color: var(--primary);
+  }
+  
+  .timeline-content {
+    text-align: center;
+    padding: 0 10px;
+  }
+  
+  .timeline-content h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .timeline-content p {
+    font-size: 0.9rem;
+    color: var(--gray);
+  }
+  
+  @media (max-width: 768px) {
+    .services-section {
+      padding: 4rem 0;
+    }
+    
+    .development-status {
+      padding: 2rem;
+    }
+    
+    .timeline {
+      flex-direction: column;
+      gap: 2rem;
+    }
+    
+    .timeline::before {
+      top: 0;
+      left: 24px;
+      width: 2px;
+      height: 100%;
+    }
+    
+    .timeline-item {
+      flex-direction: row;
+      width: 100%;
+      gap: 1.5rem;
+    }
+    
+    .timeline-content {
+      text-align: left;
+    }
+  }
+</style>
